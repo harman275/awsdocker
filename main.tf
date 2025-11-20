@@ -7,3 +7,11 @@ resource "aws_instance" "ec2" {
     Name = "instance-deploy-in-jenkins-pipeline"
   }
 }
+
+
+
+# FROM alpine
+# WORKDIR /app
+# COPY . /app/
+# COPY source dest
+# 
