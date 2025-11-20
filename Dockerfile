@@ -1,5 +1,4 @@
- FROM alpine
- WORKDIR /app
- COPY . /app/
- COPY source dest
- 
+FROM alpine
+WORKDIR /app
+COPY . /app/
+COPY source dest
